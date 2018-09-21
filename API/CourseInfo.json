@@ -1,0 +1,23 @@
+{
+  "year1": {
+    "CE/CZ" : {
+      "1003": {
+        "couse_code": "CE/CZ1003",
+        "course_title": "Introduction to Computational Thinking",
+        "course_info": "Computational thinking (CT) is a problem solving process with the aid of computer; i.e. formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities. The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where they can derive simple algorithms and code the programs to solve some basic problems in their domain of studies. In addition, the course will include topics to appreciate the internal operations of a processor, and raise awareness of the socio-ethical issues arising from the pervasiveness of computing technology. ",
+        "AUs": "3",
+        "project": true,
+        "project_info": {
+          "num_of_projects": "1",
+          "ppl_per_grp": "1"
+        },
+        "assessment": {
+          "ass": ["TEL participations and TEL MCQ", "Online MCQs based quizzes", "Hands-on exercises assessment (MCQ based quizzes)", "Mini Project assessment"],
+          "weightage": ["20%", "30%", "20%", "30%"]
+        }
+      }
+    },
+    "CZ": "Only Computer Science mods will be placed here",
+    "CE": "Only Computer Electronics mods will be placed here"
+  }
+}
