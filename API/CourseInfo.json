@@ -1,23 +1,270 @@
 {
-  "year1": {
-    "CE/CZ" : {
-      "1003": {
-        "couse_code": "CE/CZ1003",
-        "course_title": "Introduction to Computational Thinking",
-        "course_info": "Computational thinking (CT) is a problem solving process with the aid of computer; i.e. formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities. The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where they can derive simple algorithms and code the programs to solve some basic problems in their domain of studies. In addition, the course will include topics to appreciate the internal operations of a processor, and raise awareness of the socio-ethical issues arising from the pervasiveness of computing technology. ",
-        "AUs": "3",
-        "project": true,
-        "project_info": {
-          "num_of_projects": "1",
-          "ppl_per_grp": "1"
-        },
-        "assessment": {
-          "ass": ["TEL participations and TEL MCQ", "Online MCQs based quizzes", "Hands-on exercises assessment (MCQ based quizzes)", "Mini Project assessment"],
-          "weightage": ["20%", "30%", "20%", "30%"]
+    "SCSE": {
+        "Programme": {
+            "CZ": {
+                "Year 2": {
+
+                },
+                "Year 3": {
+
+                }
+            },
+            "CE": {
+                "Year 2": {
+
+                },
+                "Year 3": {
+
+                },
+                "Year 4":{
+                    "CE4056": {
+                        "CourseTitle": "CE4056: Cyber Physical Systems Design",
+                        "Prerequisites": "CE2007: Microprocessor‐based Systems and CE/CZ1006: Computer Organisation And Architecture",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 13, Lab: 8",
+                        "CourseAims": "Cyber‐physical systems (CPSs) leverage computing and communication resources to control physical processes. Cars, aircraft, and robots are prime examples, because they move physically in space in a way that is determined by discrete computerized control algorithms. Designing these algorithms to control CPSs is challenging due to their tight coupling with physical behaviour. At the same time, it is vital that these algorithms be correct, since we rely on CPSs for safety critical tasks like keeping aircraft from colliding The primary aim of this course is to cover two key aspects in CPS design, namely dynamic systems modelling and designing embedded systems to control CPSs. The course uses state‐of‐the‐art modelling techniques exposes student to practical systems that applies CPS design.",
+                        "Assessment": "Final Exam: 40%,  Quiz: 25%, Project: 35% - Note: The final examination is closed book. The in‐class activity involves open book or take home quizzes."
+                    }
+                }
+
+            },
+            "CE/CZ": {
+                "Year 1": {
+                    
+                },
+                "Year 2": {
+                    "CE/CZ2001": {
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ2002": {
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ2005": {
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ2006": {
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE9010": {
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }
+                },
+                "Year 3": {
+                    "CE/CZ3001": {
+                        "CourseTitle": "CE/CZ3001:Advanced Computer Architecture",
+                        "Prerequisites": "CE/CZ1006: Computer Organisation And Architecture",
+                        "AUs": 3,
+                        "Session": "TEL(LAMS): 10, Lectures: 26, Tutorial: 10, Lab: 5",
+                        "CourseAims": "This course aims to develop your understanding in the fundamental concepts and in‐depth understanding of design principles of a computer system by addressing key issues in instruction set design, micro‐architecture design along with the interaction of hardware components in a computer system. This course aids you to acquire necessary skills for analysing and estimating the performance of computing systems, and to design high‐performance computing systems. In this course, there is a strong emphasis on the study of techniques for improving the power efficiency of single and multiple processor systems. Students will complete this course with a useful appreciation and understanding of processor design issues relating to simplicity of implementation, performance‐enhancement techniques, and power‐reduction methods.",
+                        "Assessment": "Final Exam: 60%, Laboratory Quizzes: 30%, Laboratory Assignment: 10%"
+                    }
+                },
+                "Year 4": {
+                    "CE/CZ4001":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4003":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4013":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4015":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4016":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4021":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4022":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4023":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4031":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4032":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4041":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4045":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4046":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4055":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4057":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    },
+                    "CE/CZ4062":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4064":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4065":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4067":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4068":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4071":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }, 
+                    "CE/CZ4073":{
+                        "CourseTitle": "",
+                        "Prerequisites": "",
+                        "AUs": 3,
+                        "Session": "",
+                        "CourseAims": "",
+                        "Assessment": ""
+                    }
+
+                }
+            }
         }
-      }
-    },
-    "CZ": "Only Computer Science mods will be placed here",
-    "CE": "Only Computer Electronics mods will be placed here"
-  }
+
+    }
 }

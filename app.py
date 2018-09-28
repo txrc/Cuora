@@ -1,4 +1,3 @@
-
 from API.SCSE_API import API
 from flask import Flask, request, render_template
 import boto3, json
