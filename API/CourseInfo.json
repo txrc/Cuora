@@ -3,18 +3,134 @@
         "Programme": {
             "CZ": {
                 "Year 2": {
-
+                    "CZ2003": {
+                        "CourseTitle": "CE/CZ2003:Computer Graphics & Visualization ",
+                        "Prerequisites": "CZ1011: Engineering Mathematics I",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 12, Labs: 10",
+                        "CourseAims": "This course aims to introduce methods for visualizing data, especially in cases where simple plots and diagrams are insufficient. Information visualization and graphics rendering of abstract data involves various mathematical models, and has become important in modern science and technology. It has applications across many disciplines including interior and architectural designs, as well as engineering software systems that employ graphical presentations as part of their user interfaces. You will be immersed into “visual mathematics”, i.e. you will learn how to see geometry and colours beyond mathematical formulas and how to represent geometric shapes and motions by analytic functions and algorithmic procedures. You will develop spatial visualization skills which will permit you to perform 3D rotations and other transformations of geometric objects. You will also learn how a common personal computer, freeware and de‐facto standard software can be used for solving complex computer graphics problems. The course requires knowledge of engineering math and analytic geometry",
+                        "Assessment": "Final Examination: 60%. Continuous Assessment 1 (CA1) Tutorials: 10%, Continuous Assessment 2 (CA2) Software Laboratory: 30% "
+                    },
+                    "CZ2004": {
+                        "CourseTitle": "CE/CZ2004:Human-Computer Interaction",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 12, Example Classes: 10",
+                        "CourseAims": "This course aims to provide an introduction to human‐computer interaction, with an overarching goal of inculcating into you the habit of adopting a user‐centric perspective on usability when designing, evaluating and innovating new user interfaces. More specifically, the objectives are to get you to: (a) appreciate and understand the significance of considering usability issues in interface development, including user requirements, measurements and various usability tests; (b) acquire vocabulary to frame and articulate HCI issues and considerations for different computing applications; (c) learn first principles in user interface design and develop basic ability to apply design considerations to both current and future interface modalities; (d) obtain a perspective of how HCI needs to be aligned with human thought processes and physical abilities, and (e) be aware of the large range of user interfaces in society today, and appreciate how HCI design is applied in varioussectors of the computing industry",
+                        "Assessment": "Final Examination: 60%, Lo-fi prototype: 18%, Usability Evaluation report: 6%, Hi-fi prototype: 16%"
+                    },
+                    "CZ2007": {
+                        "CourseTitle": "CE/CZ2007:Introduction to Databases",
+                        "Prerequisites": "CE/CZ2001: Algorithms",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 10, Student Presentation: 10",
+                        "CourseAims": "Database management systems (DBMS) are software systems that control the creation, maintenance, and use of databases, i.e., organized collections of data. Relational DBMS (RDBMS) are incredibly ubiquitous today  ‐‐  they underlie technology used by most people every day if not every hour. RDBMS reside behind a huge fraction of websites; they are a crucial component of telecommunications systems, banking systems, video games, and just about any other software system or electronic device that maintains some amount of persistent information. As a consequence, it is important that we equip you with knowledge of design of relational databases and the use of RDBMS for applications. This introductory course serves the purpose.",
+                        "Assessment": "Final Examination: 50%, Term Project: 30%, Quiz: 20%"
+                    }
                 },
                 "Year 3": {
-
+                    "CZ3002":{
+                        "CourseTitle": "CZ3002:Advanced Software Engineering",
+                        "Prerequisites": "CZ/CE2006: Software Engineering",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 13, Student Presentation: 2",
+                        "CourseAims": "Building upon software engineering and design concepts covered in Software Engineering (CZ2006), this course aims to introduce advanced software engineering management topics to you including Quality Management, Project Management, Configuration Management, and Maintenance, according to the Software Engineering Body of Knowledge.",
+                        "Assessment": "Final 2‐hour written examination: 40%, Coursework assessment in a form of laboratory cum assignments: 60%"
+                    },
+                    "CZ3005":{
+                        "CourseTitle": "CZ3005:Artificial Intelligence",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 12, TEL:14, Tutorial: 13, Lab:1, Example Class: 2",
+                        "CourseAims": "Computer / software engineers are involved in effective and efficient building of knowledge agent systems that satisfy the requirements of users; possibly software for intelligent embedded and intelligent information systems. General awareness of theory, knowledge, and practice in all phases of the knowledge based systems and representation techniques for problem solving are necessary for those of you who wants to get into the field artificial intelligence. These are advanced intelligent systems that are finding wide spread applications in finance, banking, manufacturing industries.",
+                        "Assessment": "Final Examination: 60%, Quiz: 10%, Laboratory: 30%"
+                    },
+                    "CZ3006":{
+                        "CourseTitle": "CZ3006:Net Centric Computing",
+                        "Prerequisites": "CE/CZ1006: Computer Organization & Architecture, CE/CZ2002: Object Oriented Design & Programming",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab:8",
+                        "CourseAims": "This course aims to give a broad knowledge of modern networking technologies and network‐based applications, computing systems, and software. The course will cover the background and history, basic concepts and components, mechanisms and protocols of computer networks and Internet. The scope will extend to the World Wide Web computing and information exchange framework built on top of Internet, and introduce key technologies that enable the client–server web application modes. You are expected to finish the course with necessary knowledge and understanding of the rationale in modern computer networking and network centric system and application design. Lectures will focus on concepts, theory, technology, and practical examples. We will supplement lectures with tutorials, laboratory experiments, course assignments, and e‐learning modules. E‐learning modules are intended to encourage self‐learning, particularly on extended knowledge of the core of this course. Tutorials will focus on topics and knowledge covered in the lectures for you to better understand them. Lab experiments and assignments will enhance your practical programming experience and hands on skills",
+                        "Assessment": "Final Examination: 60%, Lab Assignment I: 20%, Lab Assignment II: 20%"
+                    },
+                    "CZ3007":{
+                        "CourseTitle": "CZ3007:Complier Techniques",
+                        "Prerequisites": "CE/CZ2001: Algorithms, CE/CZ2006: Software Engineering",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 8",
+                        "CourseAims": "The aim of this course is to give you an understanding of compilers and the techniques involved in programming language translation. Compilers are omnipresent in the life of a software developer.Their design and implementation have been studied for more than 50 years, leading to a well‐ developed body of theory that has been successfully applied in practice many times over. Many techniques originally developed in the context of compiler design (such as regular expressions, parsing and abstract syntax trees) have taken on a life of their own and are widely used in other contexts as well.   While it is not likely that you will ever be involved in the development of a compiler for a general programming language during their professional career, domain specific languages are becoming increasingly important. Implementing an interpreter or a compiler for such a language requires an understanding of compiler techniques. Consequently, it is important that you have at least a high‐level grasp of the structure of a compiler and the problems arising during compilation, and that you acquire the most important techniques used to tackle them. Last but not least, a compiler is a non‐trivial piece of software; understanding its structure and inner workings is an excellent way for students to become better software engineers.",
+                        "Assessment": "Final Examination: 60%, Practical Lab Assignments: 21%, Online Quiz: 3%, Written Quiz: 16%"
+                    }
                 }
             },
             "CE": {
                 "Year 2": {
-
+                    "CE2003":{
+                        "CourseTitle": "CE2003:Digital Systems Design",
+                        "Prerequisites": "CE/CZ 1005: Digital Logic",
+                        "AUs": 3,
+                        "Session": "Lectures: 4, TEL:22, Tutorial: 13, Lab: 10, Example Class: 5",
+                        "CourseAims": "This course aims to develop skills in digital hardware design to meet basic industry expectations. Here, the principles established in CE/CZ1005‐Digital Logic will be extended to encompass circuits of greater complexity.   These circuits are no longer implemented using multiple discrete logic elements, as presented in CE/CZ1005,but rather use Application Specific Gate Array (ASIC) or Field Programmable Gate Array (FPGA) technologies.Both of these technologies can accommodate circuits of complexity equivalent to many millions of gates.   This course will focus on FPGA technology as it is gaining commercial popularity (due to the cost of ASIC Implementations). The necessary logic and connectivity for both technologies is synthesised by software tools  from code written in a Hardware Description Language. As such, this course presents you with circuit design  techniques for more advanced systems in a methodical manner based on modern design techniques.",
+                        "Assessment": "Final Examination: 60%, Quiz: 15%, Laboratory: 15%, Project: 10%"
+                    },
+                    "CE2004":{
+                        "CourseTitle": "CE2004:Circuits and Signal Analysis",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 12, Lab: 8",
+                        "CourseAims": "The first part of this course aims to develop the students’ ability to identify and solve circuit analysis problems associated with simple resistor circuits and RL & RC circuits.  With the various circuit analysis techniques covered in this subject, the students will be able to identify and choose the most effective methods to solve the given circuit design.  The second part of this course aims to enable the students to analyse and design circuits with active circuit elements (Op‐Amps), and perform analysis for signals and systems in general, with emphasis on Linear time‐invariant (LTI) systems.",
+                        "Assessment": "Final Examination: 60%, Laboratory written report (Part 1): 20%, Laboratory written report (Part 2): 20%"
+                    },
+                    "CE2007":{
+                        "CourseTitle": "CE2007:Microprocessor based Systems Design",
+                        "Prerequisites": "CE/CZ 1006: Computer Organization and Architecture",
+                        "AUs": 3,
+                        "Session": "Lectures: 19, TEL:5, Tutorial: 9",
+                        "CourseAims": "Microprocessors may be integrated within self‐contained single‐chip microcontrollers and include all the resources to execute programs. However, in many designs, resources such as read‐only memory, random access memory, peripheral controllers, analogue‐to‐digital converters etc. need to be selected for specific reasons and connected to a microprocessor. This is often necessary to satisfy space, cost, performance, and data acquisition constraints. This course aims to provide you with a fundamentalunderstanding of designing microprocessor‐based systems. This includes understanding the range of components available in a microprocessor‐based system, how they are connected and used for reliable  operation.", 
+                        "Assessment": "Final Examination: 60%, Assignment and Report: 20%, Laboratory Quiz: 20%"
+                    }
                 },
                 "Year 3": {
-
+                    "CE3002":{
+                        "CourseTitle": "CE3002:– Sensor Control and Interfacing",
+                        "Prerequisites": "CE 2004: Circuits and Signal Analysis",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 13, Lab: 5",
+                        "CourseAims": "The course aims to develop in you the ability to analyse the process of sensing, control and interfacing. The signals from environment are mostly analog in nature. A proper sensing, signal conditioning and acquisition (including digitization) set up is required to prepare suchsignals for analysis. The acquired signals after analysis can also be used for controllingplants in a control system by measuring the error. The analysis and design of discrete control systems is an essential part of the skills of a computer engineer. The course aims in providing strong foundation knowledge of sensors, signal conditioning, digital interfacing, sampled data system, digital control system design and system analysis  for the design of signal acquisition systems and digital control systems.",
+                        "Assessment": "Final Examination: 60%, Laboratory Project: 40%"
+                    },
+                    "CE3003":{
+                        "CourseTitle": "CE3003:Microcontroller Programming",
+                        "Prerequisites": "CE/CZ 2005: Operating Systems",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 7, Lab: 12",
+                        "CourseAims": "This course aims to equip you with a general understanding of microcontroller architecture and microcontroller programming methods (with and without operating systems) using ARM Cortex‐ M3 microcontroller as an example. You will learn about the role of microcontrollers in embedded systems and their effective utilization to meet system performance requirements. This course is ideal if you are interested in computing hardware and its programming. The coursecontent will focus on ARM Cortex‐M3 microcontroller and Micrium OS‐III real time operatingsystem, but you will also develop an understanding of transferable knowledge to work with other microcontroller architectures and real time operating systems in the industry. This course will help you in finding industry jobs in embedded systems and electronic product design markets. If interested in research, this course will trigger your imagination with respect to  microcontroller architecture development and real‐time operating system requirements.", 
+                        "Assessment": "Final Written Examination: 60%, Laboratory Quiz: 30%, Team Based Learning (TBL) Activity: 10%"
+                    },
+                    "CE3005":{
+                        "CourseTitle": "CE3005:Computer Networks",
+                        "Prerequisites": "CE/CZ 1011: Engineering Mathematics I, CE/CZ 1012: Engineering Mathematics II",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 8",
+                        "CourseAims": "This course serves as a foundation for computer and communication networks. Emphasis is placed on concepts, protocols and technologies, which formulate various Local Area Networks (LANs), Wide area Networks (WANs), and their interconnections. Emphasis is also placed on the fundamentals of the Internet, and includes laboratory sessions on socket programming. Advanced materials, such as, cloud computing, will also be covered to prepare you well for your future career.",
+                        "Assessment": "Final Examination: 60%, Laboratory session 1: 20%, Laboratory session 2: 0%, Laboratory session 3: 20%"
+                    },
+                    "CE3006":{
+                        "CourseTitle": "CE3006:Digital Communications",
+                        "Prerequisites": "CE/CZ1011: Engineering Mathematics I, CE 2004: Circuits and Signal Analysis ",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 6",
+                        "CourseAims": "This course discusses on fundaments and applications of digital communication systems.  The specific aims of the course are to provide you with    - the basic principles of digital communications,   - an understanding of the theoretical basis underlying the operation of common digital communication systems, - the foundation for the study of advanced communication systems,   - various trade‐offs in the design and in the resource allocation for a practical digital communication systems.",
+                        "Assessment": "Final Examination: 60%, Mid‐term test: 20%, Lab Quizzes: 20%"
+                    },
+                    "CE3007":{
+                        "CourseTitle": "CE3007:Digital Signal Processing",
+                        "Prerequisites": "CE 2004: Circuits and Signal Analysis",
+                        "AUs": 3,
+                        "Session": "Lectures: 23, TEL:0, Tutorial: 13, Lab: 10",
+                        "CourseAims": "Digital Signal Processing (DSP) has extensive applications as the building block of feature extractions for any data analytics work regarding signals. The aim of this course is to provide you with a strong understanding of digital signal processing fundamentals so that you can: i) apply its concepts to relevant field of interest.  ii) grasp technical literature of this field,iii) be prepared for the study of more advanced topics and applications.", 
+                        "Assessment": "Final Examination: 55%, Class Quiz: 20%, Lab: 25%" 
+                    }
                 },
                 "Year 4":{
                     "CE4056": {
@@ -26,52 +142,106 @@
                         "Assessment": "Final Exam: 40%,  Quiz: 25%, Project: 35% - Note: The final examination is closed book. The in‐class activity involves open book or take home quizzes."
                     }
                 }
-
             },
             "CE/CZ": {
                 "Year 1": {
-                    
+                    "CE/CZ1003": {
+                        "CourseTitle": "CE/CZ1003:Introduction to Computational Thinking ",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 0, Tutorial: 13, Example Class: 26",
+                        "CourseAims": "Computational thinking (CT) is a problem solving process with the aid of computer; i.e.formulating a problem and expressing its solution in such a way that a computer can effectively carry it out. It includes a number of characteristics, such as breaking a problem into small and repetitive ordered steps, logically ordering and analyzing data and creating solutions that can be effectively implemented as algorithms running on computer. As such, computational thinking is essential not only to the Computer Science discipline, it can also be used to support problem solving across all disciplines, including math, science, engineering, business, finance and humanities. The aim of this course is hence to take students with no prior experience of thinking in a computational manner to a point where they can derive simple algorithms and code the programs to solve some basic problems in their domain of studies. In addition, the course will include topics to appreciate the internal operations of a processor, and raise awareness of the socio-ethical issues arising from the pervasiveness of computing technology.",
+                        "Assessment": "TEL participations and TEL MCQs: 20%,  Online MCQs based quizzes: 30%, Hands-on exercises assessment (MCQ based quizzes): 20%, Mini Project assessment: 30% "
+                    },
+                    "CE/CZ1005": {
+                        "CourseTitle": "CE/CZ1005:Digital Logic ",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 0, TEL: 26, Tutorial: 13, Lab: 10",
+                        "CourseAims": "This course aims to develop your ability to analyse and design digital circuits. The design and behaviour of modern digital equipment (e.g. mobile phones and personal computers) are based on functions of binary variables. This course provides you the knowledge to analyse the theoretical characteristics and the skills required for practical technology‐driven implementations of digital circuits.   This course provides an introductory perspective of digital circuits design. It is relevant for anyone pursuing a career in the ICT industry – including those in digital systems, computer architecture and microprocessor based systems design.",
+                        "Assessment": "Final Examination: 60%, Quizzes: 22%, Lab assessments: 10%, Online tasks: 8%"
+                    },
+                    "CE/CZ1006": {
+                        "CourseTitle": "CE/CZ1006:Computer Organisation and Architecture",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lecture 26, Tutorial: 13, Lab: 8",
+                        "CourseAims": "This core engineering course aims to develop your understanding of the basic architectures of a computer system along with the organization and operation of common peripherals and memory sub‐systems around such computing systems. It also reveals how such architectures influence the design and implementation of low‐level instructions and high level programming constructs.   Understanding of low level architectural aspect is important to later appreciation of more advanced topics in computersystem and architecture discussed in CE2007, CE3001, CZ3001 and CE3003, which this course is a pre‐requisite to.",
+                        "Assessment": "Final Examination: 60%, Quiz: 40%"
+                    },
+                    "CE/CZ1007": {
+                        "CourseTitle": "CE/CZ1007:Data Structures",
+                        "Prerequisites": "CE/CZ1003: Introduction to Computational Thinking",
+                        "AUs": 3,
+                        "Session": "Lectures: 13, TEL: 0, Example Class: 24",
+                        "CourseAims": "This core programming course aims to develop your understanding in data structures such as linked lists, stacks, queues and trees that are important for building efficient programs in C programming language, and are essential for future programming and software engineering courses.",
+                        "Assessment": "Assignment: 20%, Test: 80%"
+                    },
+                    "CE/CZ1011": {
+                        "CourseTitle": "CE/CZ1011:Engineering Mathematics I",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures and TEL: 26, Tutorials: 13, Example Class: 24",
+                        "CourseAims": "This course aims to develop your foundation in engineering mathematics, particularly in linear algebra and probability and statistics.      This course provides the basic engineering mathematics foundation that is necessary for anyone pursuing a computer science and engineering degree course.",
+                        "Assessment": "Final Written Examination: 60%, Quizzes: 32%, Example class (lab) exercise: 8%"
+                    },
+                    "CE/CZ1012": {
+                        "CourseTitle": "CE/CZ1012:Engineering Mathematics II",
+                        "Prerequisites": "-",
+                        "AUs": 3,
+                        "Session": "Lectures: 20, TEL: 6, Tutorials: 10, Exampleclass: 8",
+                        "CourseAims": "This course aims to provide the appropriate mathematical background pertaining to basic calculus, ordinary differential equations, Fourier transform, numerical differentiation and integration methods. It is a pre‐requisite for other courses, including CE2001 and CZ2001, CE2004, and CE3005 and this mathematical knowledge is essential for solving many computer science and computer engineering problems.",
+                        "Assessment": "Final Examination: 60%, Quiz: 20%, Take home assignment: 20%"
+                    },
+                    "CE/CZ1013": {
+                        "CourseTitle": "CE/CZ1013:Physics for Computing",
+                        "Prerequisites": "-",
+                        "AUs": 2,
+                        "Session": "Lectures: 26, TEL: 0, Tutorials: 0, Lab: 8",
+                        "CourseAims": "This course aims to show the fundamental role of physics in building up computing systems and computer applications. You will be exposed to various selected physics topics (Optics, Electrics, Electronics, and Magnetism), with which, many useful physics‐computing systems have been developed and changed our daily life. This course serves you as an introductory general education course to encourage you for interdisciplinary thinking and exploration.",
+                        "Assessment": "Quizzes/Reports: 80%, Labs: 20%"
+                    }
                 },
                 "Year 2": {
                     "CE/CZ2001": {
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ2001:Algorithms",
+                        "Prerequisites": "CE/CZ1007:Data Structures",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 25, TEL: 2, Tutorials: 11, Examples Classes: 8",
+                        "CourseAims": "This core engineering course aims to develop your knowledge, understanding and skills about algorithms, including: (1) methods and techniques to design and implement algorithms; (2) methods and techniques to analyse the correctness and resource requirements (mainly the time and space complexities) of algorithms. Because algorithms are essential to both Computer Engineering (CE) and Computer Science (CS), this course has vital importance for learning other courses in CE or CS, and shall prepare you for future careers in the science and technology of computing.",
+                        "Assessment": "Final Examination: 60%, Mid-Term Quiz: 20%, Example Classes: 20%"
                     },
                     "CE/CZ2002": {
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ2002:Object Oriented Design & Programming ",
+                        "Prerequisites": "CE/CZ1007:Data Structure",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 24, TEL: 0, Tutorials: 10, Labs: 10",
+                        "CourseAims": "The object‐oriented paradigm to the design of software is one major successful approach to address complexity and maintainability issues in software systems. We want students to establish an object‐ oriented mindset and to gain valuable insights into how software can be developed using the object‐ oriented approach.  This course should not be interpreted to be a pure programming language course.   Rather, the programming language serves to illustrate, via practical examples, the concepts learnt in the course. As a student of this course, you will learn essential object‐oriented concepts such as encapsulation, the separation of design from implementation; the use of inheritance and polymorphism. You will discover how to describe these concepts using appropriate UML diagrams. Finally, you will also learn good design principles for reuse, and to realise these principles using object‐oriented programming languages such as Java and/or C++.",
+                        "Assessment": "Final Examination: 60%, Clicker/Java Quiz (Participation): 5%, Laboratory Assessment: 5%, Assignment: 30%"
                     },
                     "CE/CZ2005": {
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ2005:Operating Systems",
+                        "Prerequisites": "CE/CZ 1006: Computer Organisation and Structure and CE/CZ 1007: Data Structures",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL: 0, Tutorials: 12, Labs: 8",
+                        "CourseAims": "This course aims to develop your understanding of fundamental concepts and principles of modern operating systems, and to build your knowledge on the design and implementation of main operating system components. ",
+                        "Assessment": "Final Written Examination: 60%, Continuous Assessments: 40%"
                     },
                     "CE/CZ2006": {
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ2006:Software Engineering",
+                        "Prerequisites": "CE/CZ 2002 (can be taken concurrently): Object Oriented Design and Programming",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL: 0, Tutorials: 10, Student presentation: 2",
+                        "CourseAims": "This course aims to equip SCSE students with foundation knowledge on issues and techniques required for the design and implementation of quality software. You will have the necessary knowledge and skills to delve deeper into systems analysis (CZ3003) and advanced topics in Advanced Software Engineering (CZ3002).",
+                        "Assessment": "Final Examination: 60%, Case study: 40%"
                     },
-                    "CE9010": {
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                    "CE/CZ9010": {
+                        "CourseTitle": "CE/CZ9010:Introduction to Data Science",
+                        "Prerequisites": "CE/CZ1003, CE/CZ1011 (or equivalent ‐ which is basics in statistics)",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorials: 13, Labs: 10",
+                        "CourseAims": "This course aims to develop skills in data science. In 2012, the Harvard Business School called data scientist the sexiest job of the 21st century. Why has data scientist become a most in‐demand job? Today massive amounts of data are available in all areas of science, government and industry. Exploited sensibly, these raw data can significantly improve the efficiency of research, services and industries in as many fields as healthcare, engineering, finance, telecommunications or urban development just to name a few. This course is designed for students who recognize the value of data science, but are not majoring from the School of Computer Science and Engineering (SCSE) and certain other programmes (see Appendix 3). The course provides you with an understanding of the fundamentals of data science and the practical skills set required to be a data scientist, including the design and implementation of basic techniques. ",
+                        "Assessment": "Final Examination: 40%, Laboratory: 40%, Project: 20%"
                     }
                 },
                 "Year 3": {
@@ -86,180 +256,204 @@
                 },
                 "Year 4": {
                     "CE/CZ4001":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4001: Virtual and Augmented Reality",
+                        "Prerequisites": "CZ 2003: Computer Graphics and Visualization",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 24, TEL:0, Tutorials: 12, Student Presentation: 3",
+                        "CourseAims": "Virtual and augmented reality is becoming a powerful technology for engineers to design and implement applications ranging from manufacturing and medical to media and entertainment. Virtual reality refers to techniques that build imaginary worlds in computers. Augmented reality adds cues by overlaying computer‐generated images onto the real world. An understanding of the hardware, software and algorithms for virtual and augmented reality allows engineers like you to push the limits of the technology and develop useful applications.   The prerequisite of this course is CZ2003 Computer Graphics and Visualization, which covers fundamentals of 3D modelling and animation.",
+                        "Assessment": "Final Examination: 60%, Project written report: 20%, Project oral presentation: 20%"
                     },
                     "CE/CZ4003":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4003: Computer Vision",
+                        "Prerequisites": "-",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL:0, Tutorials: 13, Lab: 3",
+                        "CourseAims": "This course aims to introduce you basic concepts and technologies of computer vision, and develop skills to implement widely used algorithms to process real vision tasks. This course presents you with digital image acquisition, representation, processing, recognition, and 3D reconstruction, to gain understanding of algorithm/system design, analytical tools, and practical implementations of various computer vision applications. You will be equipped with fundamental knowledge, practical skills and the insights for future development in this area.",
+                        "Assessment": "Final examination: 60%, Project 1: 20%, Project 2: 20%"
                     },
                     "CE/CZ4013":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4013: Distributed Systems",
+                        "Prerequisites": "-",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL:0, Tutorials: 13",
+                        "CourseAims": "This course aims to develop your understanding of the basic architectures, algorithms and design principles of distributed computing systems, and how they meet the demands of contemporary distributed applications.      This course provides an introductory but broad perspective of distributed systems, and is relevant for anyone pursuing a career in the IT/ICT industry – including those in product design and development, network/system administration, as well as, given the proliferation of IT in all walks of our lives, in executive roles across industries and government.",
+                        "Assessment": "Final Examination: 60%, Course Project: 40%"
                     },
                     "CE/CZ4015":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4015: Simulation and Modelling",
+                        "Prerequisites": "CE/CZ 1007: Data Structures, CE/CZ 1011: Engineering Maths I",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL:0, Tutorials: 13, Lab: 8",
+                        "CourseAims": "Modelling and Simulation (M&S) course aims to equip you with one of the most important techniques to study real‐time complex systems.  M&S is an essential tool in many areas of science and engineering and has many applications, ranging from system analysis, decision support, to virtual environments.   Thus, this course will introduce some fundamental techniques in M&S and build an understanding of the systems and tools of this field. This course provides an introduction to system simulation and modelling techniques for complex dynamic systems.  While the focus of this course is on how to analyze complex systems using computer simulation, some basic mathematical techniques will also be discussed.  Various modelling, simulation and performance analysis techniques of complex systems will be discussed in this course with the emphasis on discrete event systems.",
+                        "Assessment": "Final Examination: 60%, Practical Lab Assignment: 25%, Written Assignment: 10%, Presentations/Discussions: 5%"
                     },
                     "CE/CZ4016":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4016: Advanced Topics in Algorithms",
+                        "Prerequisites": "CZ/CE 2001: Algorithms",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 24, TEL:0, Tutorials: 11, Quizzes: 4",
+                        "CourseAims": "This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the prerequisite “Algorithms” course to broaden the range of analysis techniques that you use; provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation.   Algorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies.  ",
+                        "Assessment": "Final Examination: 50%, Written Quizzes (4 x 1h): 50%"
                     },
                     "CE/CZ4021":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4021: Pervasive Networks",
+                        "Prerequisites": "-",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 13, TEL:13, Tutorials: 10",
+                        "CourseAims": "The objective of this course is to introduce you to different types of wireless network technologies and some important mobile services and applications to support pervasive computing. The subject consists of two complementary components, i.e., wireless network protocol and mobility management. In the wireless network protocol part, various protocols in different layers designed to support wireless data transfer will be presented. In the mobility management, the required mechanisms to support data transfer with users’ mobility will be discussed. After attending this course, you should be able to address the various technical challenges associated with wireless networking by solving such challenges using the principles learned. In addition, you should be able to solve issues related to location management, and mobile multimedia services. The concepts covered in this course are particularly important for those working in fields such as mobile phone‐related services, wireless apps development and location‐based services.",
+                        "Assessment": "Final Examination: 60%, Take home assignment: 25%, Quiz: 15%"
                     },
                     "CE/CZ4022":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4022: Personal Mobile Networks",
+                        "Prerequisites": "CE 3005: Computer Networks, CZ 3006: Net‐Centric Computing",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, TEL:-, Tutorials: 13",
+                        "CourseAims": "This course builds upon the foundation network knowledge gained from core courses on Computer Networks (CE3005) or Net‐Centric Computing (CZ3006). It aims to introduce both Computer Engineering and Computer Science students to the realm of mobile communications made possible through wireless technologies. It provides a straightforward and broad survey of wireless voice and data network standards and technologies available today for personal communications. It is designed for those of you taking an entry‐level wireless technology course or seeking better knowledge of wireless communications and networks. The topics include the technologies being exploited in Bluetooth to Wi‐Fi to cell phones to satellite communications. Wireless mobile communication systems including wireless personal networks (WPAN), wireless local area networks (WLAN), wireless wide area networks (WWAN) would also be introduced. This course will complement CE/CZ4021 Pervasive Networks",
+                        "Assessment": "Quiz/Quizzes: 40% (if 2 quizzes) to 20% (if 1 quiz), Assignment: 0% (if no assignment) to 20%, Final Examination: 60%"
                     },
                     "CE/CZ4023":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4023: Advanced Computer Networks",
+                        "Prerequisites": "CE 3005: Computer Networks, or  CZ 3006: Net‐Centric Computing",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 10",
+                        "CourseAims": "Building upon earlier courses (CE3005 or CZ3006), this subject aims to bring you into the realm of real inter‐networking. The subject consists of two complementary components. On one hand, several application layer protocols are to be explained, along with their requirements on the underlying networks. One the other hand, practical network design and management methodologies will be introduced; they aim at meeting the application requirements. Emphasis is mostly placed on the practical use and construction of networks, with a bias toward multimedia applications. Advanced materials, such as, peer‐to‐peer networking will also be covered to prepare you well for your future career in advanced computer networks.",
+                        "Assessment": "Final Examination: 60%, Take home assignment: 20%, Take home assignment: 20%"
+                    },
+                    "CE/CZ4024":{
+                        "CourseTitle": "CE/CZ4024: Cryptography and Network Security",
+                        "Prerequisites": "CE 3005: Computer Networks or CZ 3006: Net Centric Computing",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "This course aims to develop your ability to understand how basic cryptographic algorithms work and identify the problems associated with the application of cryptography in real‐world security systems, and explain the pros and cons of various cryptographic mechanisms.      This course provides an introduction to basic cryptographic algorithms, along with the underlying mathematical foundations guiding the design of aid algorithms, and explores the usage of these primitives in real world applications, particularly applied to network security.",
+                        "Assessment": "Final Examination: 50%, Quiz‐1: 25%, Quiz‐2: 25%"
                     },
                     "CE/CZ4031":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4031: Database System Principles",
+                        "Prerequisites": "CE/CZ 2001: Algorithms, CZ 2007: Introduction to Databases",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "Database management systems (DBMS) are designed to manage large and complex data sets. The fundamentals of the implementation of database management systems must be understood by all Computer Science students. This will help students to develop and design software systems utilizing databases, and equip students with the knowledge of managing data of large scale. Moreover, this should be understood by current and future business leaders so that they can offer strategic guidance based on an informed understanding of database business capabilities. This course provides the basis for achieving this goal.",
+                        "Assessment": "Final Examination: 50%, Quizzes: 20%, Assignments: 30%"
                     },
                     "CE/CZ4032":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4032: Data Analytics and Mining",
+                        "Prerequisites": "CE/CZ 2001: Algorithms",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 24, Tutorial: 13, Student Presentation: 4",
+                        "CourseAims": "In the era of big data, large quantities of data are being accumulated. The amount of data collected is said to double every nine months. Seeking knowledge from massive data is one of the most desired attributes of Data Mining. In general, there is a huge gap from the stored data to the knowledge that could be construed from the data. This transition will not occur automatically, that is where Data Mining comes into picture. In Exploratory Data Analysis, some initial knowledge is known about the data, but Data Mining could help in a more in‐depth knowledge about the data. Courses on Database systems give methods to extract information, but they fail to extract knowledge that is actionable.Manual data analysis has been around for some time now, but it creates a bottleneck for large data analysis. Fast developing computer science and engineering techniques and methodology generates  new demands. Data mining techniques are now being applied to all kinds of domains, which are rich in data. Although data mining is partly based on statistical methods, data mining methods give a lot more than the statistical methods. Data mining methods are to a large extent based on machine learning methods. The difference is data mining is meant for huge data whereas machine learning is usually done over relatively small‐sized data. Huge data brings completely a new set of problems to be solved. This course aims to introduce you to the exciting and ever‐evolving world of data analytics and mining.",
+                        "Assessment": "Final Examination: 50%, Course written report and presentation: 50%"
+                    },
+                    "CE/CZ4034":{
+                        "CourseTitle": "Information Retrieval",
+                        "Prerequisites": "CE/CZ 2001: Algorithms",
+                        "AUs": 3,
+                        "Session": "Lectures: 23, Tutorial: 8",
+                        "CourseAims": "This course aims to involve students in a technical way to understand and build information retrieval systems. They were expected to master the basic concepts and building blocks for information retrieval systems. In addition, applications in artificial intelligence were also introduced to get students acquainted with state of the arts.  ",
+                        "Assessment": "Final Examination: 50%, Assignment: 35%, Quiz: 15%"
                     },
                     "CE/CZ4041":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4041: Machine Learning",
+                        "Prerequisites": "CE/CZ 1011: Engineering Maths I, CE/CZ 1007: Data Structures",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 23, Tutorial: 10, Student Presentation: 6",
+                        "CourseAims": "This course provides an introductory but broad perspective of machine learning fundamental algorithms, and is relevant for anyone pursuing a career in AI or Data Science. It aims to provide you with the essential concepts and principles of algorithms in machine learning so that you can use various machine learning techniques to solve real‐world application problems.",
+                        "Assessment": "Final Examination: 60%, Course project presentation: 10%, Course project report: 30%"
+                    },
+                    "CE/CZ4042":{
+                        "CourseTitle": "CE/CZ4042: Neural networks and deep learning",
+                        "Prerequisites": "CE/CZ 1003: Introduction to computational thinking, CE/CZ 1007: Data structures, CE/CZ 1011: Engineering mathematics I, CE/CZ 1012: Engineering mathematics II",
+                        "AUs": 3,
+                        "Session": "Lectures: 26, Tutorial: 12",
+                        "CourseAims": "This course aims to provide you with a basic but comprehensive foundation of neural networks and deep learning, including underlying principles, architectures, and learning algorithms of various types of deep neural networks that are essential for future applications of artificial intelligence and data science.  ",
+                        "Assessment": "Final Examination: 50%, Project 1 (report and codes): 25%, Project 2 (report and codes): 25%"
                     },
                     "CE/CZ4045":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4045: Natural Language Processing",
+                        "Prerequisites": "CE/CZ 2001: Algorithms",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "Natural language processing is becoming a very hot topic in both industrial practices and academic research. It finds many real‐world applications such as information extraction, sentiment analysis, machine translation, question answering, and summarization. Hence, it is an important subject to prepare you to cope with the huge amount of unstructured information in text, for example, in web pages and business documents. This subject covers the basic concepts and computational methods for natural language processing. Techniques covered should be biased toward those generally accepted established traditional practices recommended by practitioners. This course will equip you with the basic concepts and techniques in natural language processing on different levels including words, syntax, and semantics. You will be able to apply the techniques to real‐ world problems and conduct evaluations of your solutions.  ",
+                        "Assessment": "Final Examination: 50%, Midterm quiz: 15%, Assignment: 3"
                     },
                     "CE/CZ4046":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4046: Intelligent Agents",
+                        "Prerequisites": "-",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "Intelligent agents are a new paradigm for developing software applications and the focus of intense interest as a sub‐field of Computer Science and Artificial Intelligence. Multi‐agent systems arise when these agents co‐exist, interact and cooperate with each other. Agents and multi‐agent systems are being used in an increasingly wide variety of applications, such as personal assistants, e‐commerce, traffic control, workflow and business process management systems, etc. This course will equip you with the skills and knowledge on the design and implementation of intelligent agents and multi‐agent systems to solve large‐scale, complex, and dynamic real‐world problems.",
+                        "Assessment": "Final Examination: 60%, Course project: 40%"
                     },
                     "CE/CZ4055":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4055: Cyber Physical System Security",
+                        "Prerequisites": "CE/CZ 1006: Computer Organisation And Architecture",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 12, Lab: 3",
+                        "CourseAims": "Cyber physical systems are typically designed as a network of interacting elements with physical input and output, and are characterized by the interaction between the physical world (sensors, user inputs, actuators) and the cyber world (processing, decision making). Cyber physical systems are the driving force behind modern civilization, being integral part of technologies, such as additive manufacturing, smartcard‐based payment, power delivery systems, drone‐based operations, and smart home automation. Cyber physical systems are characterized by stringent performance requirements, such as, extremely low energy budget, small area footprint and often hard real‐time constraints. Due to the pervasive nature of the cyber physical systems in our everyday lives, it also runs the risk of huge security hazards. In this course, we will learn about the basics of cyber physical systems, including the design principles and methodologies. Further, there will be a detailed treatment of the security challenges for cyber physical systems, which vary in practice due to the diverse nature of the application environment of cyber physical systems. These different forms of security breaches, observed across diverse cyber physical systems, will be put in a well‐characterized taxonomy, to be systematically identified as attack surfaces. The techniques to handle these attacks will be described in a generic manner, including key management and wireless/RFID communication. The attack surfaces and protection/mitigation principles will then be elaborated with practical case studies, from the representative cyber physical systems such as automotive, smart card systems and smart grid.  ",
+                        "Assessment": "Final Examination: 50%, Quizzes: 20%, Project: 20%, Assignment: 10%"
                     },
                     "CE/CZ4057":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4057: Time-critical Computing",
+                        "Prerequisites": "CE/CZ 1006: Computer Organisation And Architecture, CE/CZ 2005: Operating Systems",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13, Lab: 5",
+                        "CourseAims": "Cyber‐Physical Systems (CPS) are a large‐scale network of computing systems characterized by their interaction with the physical world (sensors and actuators). CPS are the driving force behind modern civilization, being an integral part of technologies such as avionics including drones, autonomous vehicles, etc. These systems generally have hard real‐time constraints that require the cyber components to process physical inputs and generate appropriate physical outputs within pre‐defined temporal requirements. For example, think about obstacle detection and avoidance in autonomous vehicles. Suchsystems, also called time‐critical computing systems, are the primary focus of this course.In this course, you will learn the fundamental concepts of a Real‐Time Operating System (RTOS). RTOS is  the core software platform used in time‐critical computing, just like an OS in a general‐purpose  computing system. You will learn RTOS techniques for processor scheduling, process synchronization, etc.You will also learn how such time‐critical computing platforms are networked together using protocols that support real‐time communication.  Building on this foundation, you will also learn how to implement  a time‐critical system using a drone‐based platform.",
+                        "Assessment": "Final Examination: 30%, Project: 45%, Literature Review: 10%, In‐class activity (Quiz): 15%"
                     },
                     "CE/CZ4062":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4062: Computer Security (System Security)",
+                        "Prerequisites": "CE/CZ 2005: Operating Systems",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "This course aims to equip you with foundational knowledge on issues and techniques required for the cyber security. You will have the knowledge of different security policies and security models, and have the ability to recognise security features and discover pitfalls in computing systems, including the operating system and softwares.",
+                        "Assessment": "Quiz: 20%, Final Examination: 60%, Case study written report: 20%"
                     }, 
                     "CE/CZ4064":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4064: Security Management",
+                        "Prerequisites": "CZ/CE 2006: Software Engineering",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 23, Tutorial: 4, Student Presentation: 12",
+                        "CourseAims": "This course aims to develop your ability to identify the problems associated with (cyber and information) security management and understand using case studies that to effectively address them,one needs to design solutions that encompass multiple dimensions, including technology, people,processes and (internal as well as external) regulations.      This course provides an introductory but broad perspective of cyber and information security, and is relevant for anyone pursuing a career in the IT/ICT industry – including those in product design and  development, security engineering, penetration testing, network/system administration, as well as,  given the proliferation of IT in all walks of our lives, in executive roles across industries and government.",
+                        "Assessment": "Final Examination: 60%, Case study written report: 15%, Case study oral presentation: 25%"
                     }, 
                     "CE/CZ4065":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4065: Digital Forensics",
+                        "Prerequisites": "CE/CZ1001, CE3005/CZ3006, CE/CZ4062",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13, Lab: 8",
+                        "CourseAims": "Digital forensics has become increasingly relied upon to obtain evidence suitable for admission to a court of law. Such a process involves the gathering, recovery, and analysis of electronic traces to procure electronic evidence; this done in a manner that maintains a well‐documented chain of custodysuch that the integrity of the electronic evidence can be validated by external parties.   This course provides an introductory but broad perspective of digital forensics and is relevant for  anyone pursuing a career in the IT/ICT industry – including those in product design and development,security engineering, penetration testing, network/system administration, as well as, given the proliferation of IT in all walks of our lives, in executive roles across industries and government.", 
+                        "Assessment": "Final Examination: 50%, Laboratories and written report: 50%"
                     }, 
                     "CE/CZ4067":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ 4067: Software Security",
+                        "Prerequisites": "CZ/CE 2002: Object Oriented Design & Programming or CZ/CE 2005: Operating Systems",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "This course aims to develop skills in software security. It focuses on security attacks launched by supplying specially crafted inputs to software components that modify the intended behaviours of those components, and the secure coding techniques (defences). The modified behaviours of thesoftware components become security critical in a connected world where application systems areconstructed from a collection of software components. Software developers who are not familiar with software security are likely to omit suitable defences out of ignorance. As such, this course will equip you with the deep knowledge about software security attack and defence techniques, a skill necessary to become IT security experts or professional software developers.", 
+                        "Assessment": "Final Examination: 60%, One Quiz: 20%, Project/Assignment: 20%" 
                     }, 
                     "CE/CZ4068":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4068: Application Security",
+                        "Prerequisites": "CE/CZ 2005: Operating Systems, CE 3005: Computer Networks (for CE) or  CZ 3006: Net‐Centric Computing (for CSC)",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "The internet has become a convenient platform for commercial transactions executed by application systems. Commercial transactions are obvious targets for criminal activities. Securing such transactions involves multiple parties, hardware components, and protocols which are important to the security of the underlying application systems. Practitioners in this field need to be familiar with current security technologies and appreciate the respective management tasks and responsibilities of the parties involved. This course would support you in fulfilling these expectations.",
+                        "Assessment": "Final Examination: 60%, One Quiz: 20%, Project: 20%"
                     }, 
                     "CE/CZ4071":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4071: Network Science",
+                        "Prerequisites": "CE/CZ 2001: Algorithms",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 26, Tutorial: 13",
+                        "CourseAims": "We live in a world where we are surrounded by systems that are incredibly complex, from the society, a collection of billions individuals, to communications systems, integrating billions of devices, from computers to cell phones. In fact, the existence of living beings in this planet depends on the ability of thousands of proteins to work together in a seamless fashion.Furthermore, our ability to comprehend our surroundings is heavily influenced by the activityof billions of neurons in our brain. Such complex systems can be represented as static or dynamic networks of many interacting components. These components are typically much simpler in terms of behavior or function than the overall system, implying that the additional  complexity of the latter is an emergent network property.    Network science is a new discipline that investigates the topology and dynamics of suchcomplex networks, aiming to better understand the behavior, function and properties of theunderlying systems. In this course, we will study algorithmic, computational, and statistical methods of network science, as well as its applications in solving real‐world problems in communications, biology, sociology, and cyber security. The specific topics include network metrics, properties, and models, network querying and analytics, network dynamics, and distributed graph engines. Another pervasive goal of this course is to guide students into the  future by presenting research that reveals the “next big thing” in network science.", 
+                        "Assessment": "Final Examination: 50%, Term Project: 30%, Quiz: 20%"
                     }, 
                     "CE/CZ4073":{
-                        "CourseTitle": "",
-                        "Prerequisites": "",
+                        "CourseTitle": "CE/CZ4073: Data Science for Business",
+                        "Prerequisites": " CE/CZ 1007: Data Structures and CE/CZ 1011: Engineering Mathematics I or CE/CZ 1007: Data Structures and CE/CZ 1008: Engineering Mathematics",
                         "AUs": 3,
-                        "Session": "",
-                        "CourseAims": "",
-                        "Assessment": ""
+                        "Session": "Lectures: 20, Tutorial: 9",
+                        "CourseAims": "Summary: “Data is the new Oil” in the modern era of Information. It is of paramount importance in each sector of Business to collect, maintain, visualize, explore, analyse, and model data, in every form and shape, to garner crucial inferential information about the scope and target audience, performance andpotential optimizations, predictions and forecasting, as well as practical data‐driven business decisions.   The Aim: This elective course in Computer Science and Engineering aims to introduce you, hands‐on, to  the core techniques of data manipulation, visualization, statistical modelling, inference, and digital datapresentation, which constitute the business analytics toolbox for any practicing Data Scie",
+                        "Assessment": "Final Exam: 40%, Assignments: 60%" 
                     }
 
                 }
