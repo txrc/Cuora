@@ -1,19 +1,22 @@
-from HelperFunctions.APIHelperFunctions import APIHelperFunctions
+from API.HelperFunctions.APIHelperFunctions import APIHelperFunctions
 import json
 
 
 class API():
-
-	helper = APIHelperFunctions()
-	courseInfo = helper.convertFileToJSON("../API/CourseInfo.json") # RESTful API is here
+	file = './API/CourseInfo.json'
+	courseInfo = APIHelperFunctions.convertFileToJSON(file) # RESTful API is here
+	# print(courseInfo)
 
 
 	def getData(self, attributes):
-		print(self.courseInfo)
-		return json.dumps(attributes)
+		print(self.courseInfo["SCSE"]["Programme"][attributes["slots"]["Programme"]][attributes["slots"]["Year"]])
+		# if attributes["intentName"] == "CourseByYearIntent":
 
+		# 	# for course in self.coursei
+		# 	print(courseInfo["SCSE"]["Programme"][attributes["slots"]["Programme"]][attributes["slots"]["Year"]])
 
-if __name__ == '__main__':
-	newData = API()
+	
+# if __name__ == '__main__':
+# 	newData = API()
 
 	

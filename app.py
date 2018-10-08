@@ -23,14 +23,15 @@ def index():
 @app.route('/lex')
 def send_text():
 	response = lex.post_text(
-	    botName='mes_stx_seachat_bot',
-	    botAlias='dev_intern',
+	    botName='Cuora',
+	    botAlias='dev',
 	    userId='Test',
-	    inputText='Hi, what is the total headcount?'
+	    inputText='In year 3 what course do we have to take for CS'
 	)
 	if (response["dialogState"] == "ReadyForFulfillment"):
 		attributes = {"intentName": response["intentName"], "slots": response["slots"]} 
-		return API.getData(attributes)
+		output_response = API.getData(attributes)
+		return output_response
 	else:
 		return json.dumps(response["message"])
 
