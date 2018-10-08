@@ -11,8 +11,7 @@
   <title>Cuora</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="{{url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css' )}}">
   <!-- Custom fonts for this template -->
   <link
     href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
@@ -20,7 +19,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/business-casual.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{url_for('static', filename='css/business-casual.min.css' )}}">
 
 
   <!-- Icon Library -->
@@ -138,15 +137,15 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="newsevents.html">News/Events
+            <a class="nav-link text-uppercase text-expanded" href="/newsevents">News/Events
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="gpaCalculator.html">GPA Calculator</a>
+            <a class="nav-link text-uppercase text-expanded" href="/gpaCalculator">GPA Calculator</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="faqs.html">FAQ</a>
+            <a class="nav-link text-uppercase text-expanded" href="/faq">FAQ</a>
           </li>
         </ul>
       </div>
@@ -171,13 +170,13 @@
           <br>
         </div>
 
-        <form class="needs-validation" novalidate>
-        <div class="card">
-          <div class="card-body">
-              <div class="row">
+        <form class="needs-validation" id="gpaBody" novalidate>
+    <div class="card">
+      <div class="card-body">
+              <div class="form-row">
                 <div class="col-md-6 p">
                   <label for="cumulativeGPA"><b>Cumulative GPA</b></label>
-                  <input type="text" class="form-control" id="cumulativeGPA" placeholder="" value="" required >
+                  <input type="text" class="form-control" id="totalCumulativeGPA" placeholder="" value="" required >
                 </div>
                 <div class="col-md-6 mb-4">
                   <label for="totalCreditsEarned"><b>Total Credits Earned</b></label>
@@ -190,72 +189,76 @@
         <br>
 
         <!-- Content Row -->
-        <div class="row">
-          <div class="col-md-9 mb-4">
-            <div class="card h-100">
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-md-3">
-                    <label for="courseName"><b>Course Name</b></label>
-                    <input type="text" class="form-control" id="courseName" placeholder="" value="">
-                  </div>
-                  <div class="col-md-3">
-                    <label><b>Course Grade</b></label>
-                    <select class="custom-select d-block w-100" id="country" required>
-                      <option value="">Choose...</option>
-                      <option>A+</option>
-                      <option>A</option>
-                      <option>A-</option>
-                      <option>B+</option>
-                      <option>B</option>
-                      <option>B-</option>
-                      <option>C+</option>
-                      <option>C</option>
-                      <option>D+</option>
-                      <option>D</option>
-                      <option>F</option>
-                    </select>
-                  </div>
-                  <div class="col-md-3">
-                    <label for="courseCredit"><b>Course Credit</b></label>
-                    <input type="number" class="form-control" id="courseCredit" placeholder="" value="" required>
-                    <div class="invalid-feedback">
-                      Valid total credits amount needed. Please enter in a numeric value.
+      <div class="row">
+            <div class="col-md-9 mb-4">
+              <div class="card h-100">
+                <div class="card-body" id="rowBody">
+                  <div class="row" id="rowLabels">
+                    <div class="col-md-3">
+                      <label for="courseName"><b>Course Name</b></label>
+                    </div>
+                    <div class="col-md-3">
+                      <label><b>Course Grade</b></label>
+                    </div>
+                    <div class="col-md-3">
+                      <label for="courseCredit"><b>Course Credit</b></label>
                     </div>
                   </div>
 
-                  <div class="col-md-3">
-                    <label><b>Add/Remove</b></label>
-                    <a href="#" class="btn btn-success"><i class="fa fa-plus-circle"></i></a>
-                    <a href="#" class="btn btn-danger"><i class="fa fa-minus-circle"></i></a>
-                  </div>
+                  <div class="row" id="rowValues0">
+                    <div class="col-md-3">
+                      <input type="text" class="form-control" id="courseName" placeholder="" value="">
+                    </div>
+                    <div class="col-md-3">
+                      <select class="custom-select d-block w-100" id="courseGrade" required>
+                        <option value="">Choose...</option>
+                        <option value="5">A+</option>
+                        <option value="5">A</option>
+                        <option value="4.5">A-</option>
+                        <option value="4">B+</option>
+                        <option value="3.5">B</option>
+                        <option value="3">B-</option>
+                        <option value="2.5">C+</option>
+                        <option value="2">C</option>
+                        <option value="1.5">D+</option>
+                        <option value="1">D</option>
+                        <option value="0">F</option>
+                      </select>
+                    </div>
+                    <div class="col-md-3">
+                      <input type="number" class="form-control" id="courseCredit" placeholder="" value="" required>
+                      <div class="invalid-feedback">
+                        Valid total credits amount needed. Please enter in a numeric value.
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="javascript:void(0);" class="btn btn-success" id="add_row"><i class="fa fa-plus-circle"></i></a>
+                      <a href="javascript:void(0);" class="btn btn-danger" id="remove_row"><i class="fa fa-minus-circle"></i></a>
+                    </div>
 
+                  </div>
+                </div>
+
+
+                <div class="card-footer">
+          <input class="btn btn-success btn-lg" type="submit" value="Calculate" />
+                  <a href="javascript:void(0);" class="btn btn-danger btn-lg" id="reset_all">Clear All</a>
                 </div>
               </div>
-
-
-              <div class="card-footer">
-                <a href="#" class="btn btn-success btn-lg">Calculate</a>
-                <a href="#" class="btn btn-danger btn-lg">Clear All</a>
+            </div>
+            <!-- /.col-md-4 -->
+            <div class="col-md-3">
+              <div class="card h-100">
+                <div class="card-body">
+                  <label for="semesterGPA"><b>Semester GPA</b></label>
+                  <input type="text" class="form-control" id="semesterGPA" placeholder="" value="" disabled>
+                  <br>
+                  <label for="cumulativeGPA"><b>Cumulative GPA</b></label>
+                  <input type="text" class="form-control" id="cumulativeGPA" placeholder="" value="" disabled>
+                </div>
               </div>
             </div>
           </div>
-          <!-- /.col-md-4 -->
-          <div class="col-md-3">
-            <div class="card h-100">
-              <div class="card-body">
-                <label for="semesterGPA"><b>Semester GPA</b></label>
-                <input type="text" class="form-control" id="semesterGPA" placeholder="" value="" disabled>
-                <br>
-                <label for="cumulativeGPA"><b>Cumulative GPA</b></label>
-                <input type="text" class="form-control" id="cumulativeGPA" placeholder="" value="" disabled>
-                <br>
-                <label for="projectedGPA"><b>Projected GPA</b></label>
-                <input type="text" class="form-control" id="projectedGPA" placeholder="" value="" disabled>
-              </div>
-            </div>
-          </div>
-        </div>
         </form>
       </div>
     </div>
@@ -276,13 +279,12 @@
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="../../assets/js/vendor/popper.min.js"></script>
-<script src="../../dist/js/bootstrap.min.js"></script>
-<script src="../../assets/js/vendor/holder.min.js"></script>
+<script src="{{ url_for('static', filename='vendor/popper.min.js') }}"></script>
+<script src="{{ url_for('static', filename='dist/js/bootstrap.min.js') }}"></script>
 <script>
   $(document).ready(function(){
     $(".left-first-section").click(function(){
@@ -293,6 +295,182 @@
     $(".fa-minus").click(function(){
       $('.main-section').toggleClass("open-more");
     });
+  });
+  
+  (function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+          form.classList.add('was-validated');
+        }, false);
+    });
+  }, false);
+  })();
+  
+  
+  $(document).ready(function(){
+  var totalcount = 0;
+  function reset() {
+    $(".addtionalrow").remove();
+    $("#cumulativeGPA").val("");
+    $("#semesterGPA").val("");
+    $("#courseName").val("");
+    $('#courseGrade').prop('selectedIndex',0);
+    $("#courseCredit").val("");
+    $("#totalCreditsEarned").val("");
+    $("#totalCumulativeGPA").val("");
+  }
+  
+  function removeRow(numberofRows) {
+    if(totalcount != '0'){
+      $("#rowValues"+totalcount).remove();
+      totalcount--;
+    }
+  }
+  
+  function addRow(numberOfRows) {
+    totalcount++;
+    if (!numberOfRows) numberOfRows = 1;
+    for (var i = 0; i < numberOfRows; i++) {
+    $("#rowBody").append(
+      $("<div />").attr({
+        "class": "row addtionalrow",
+        "id": "rowValues" + totalcount,
+      }).append(
+        $("<div />").attr({
+          "class": "col-md-3",
+        }).append(
+          $("<input />").attr({
+            "type": "text",
+            "class": "form-control",
+            "id": "courseName",
+            "placeholder": "",
+            "value": "",
+          }),
+        ),
+        $("<div />").attr({
+          "class": "col-md-3",
+        }).append(
+          $("<select />").attr({
+            "class": "custom-select d-block w-100",
+            "id": "courseGrade",
+          }).append(
+              $("<option />").attr({
+              "value": "",
+              }).text("Choose.."),
+              $("<option />").attr({
+              "value": "5",
+              }).text("A+"),
+              $("<option />").attr({
+              "value": "5",
+              }).text("A"),
+              $("<option />").attr({
+              "value": "4.5",
+              }).text("A-"),
+              $("<option />").attr({
+              "value": "4",
+              }).text("B+"),
+              $("<option />").attr({
+              "value": "3.5",
+              }).text("B"),
+              $("<option />").attr({
+              "value": "3",
+              }).text("B-"),
+              $("<option />").attr({
+              "value": "2.5",
+              }).text("C+"),
+              $("<option />").attr({
+              "value": "2",
+              }).text("C"),
+              $("<option />").attr({
+              "value": "1.5",
+              }).text("D+"),
+              $("<option />").attr({
+              "value": "1",
+              }).text("D"),
+              $("<option />").attr({
+              "value": "0",
+              }).text("F")
+              
+            ).prop('required',true)
+        ),
+        $("<div />").attr({
+          "class": "col-md-3",
+        }).append(
+          $("<input />").attr({
+            "type": "number",
+            "class": "form-control",
+            "id": "courseCredit",
+            "placeholder": "",
+            "value": "",
+          }).prop('required',true)
+        ),
+        
+      )
+    );}
+  }
+  //When user click on add rows. Will add a row in the table
+  $("#add_row").click(function() {
+    addRow();
+    totalcount++;
+  });
+  $("#remove_row").click(function() {
+    removeRow();
+  });
+  //When user click on reset, it will run the reset function which will delete all the rows
+  $("#reset_all").click(function() {
+    reset();
+  });
+  
+  $("#gpaBody").submit(function(e) {
+    e.preventDefault();
+    var gradePoints = 0.0;    
+    var totalCredits = 0.0;
+    var semesterGPA = 0.0;
+    var counter = totalcount;
+    $("*[id*=rowValues]").each(function(i) {
+      console.log("Testing")
+      if ($(this).find("#courseGrade").val() == "" || $(this).find("#courseCredit").val() == "") {
+        
+        return;
+      }
+      gradePoints += parseFloat($(this).find("#courseGrade").val()) * parseFloat($(this).find("#courseCredit").val());
+      totalCredits += parseFloat($(this).find("#courseCredit").val());
+    });
+    
+
+    if (gradePoints != 0 || totalCredits != 0){
+      console.log("test")
+      semesterGPA = gradePoints / totalCredits;
+      $("#semesterGPA").val(semesterGPA);
+    }
+    
+    if ($('#totalCreditsEarned').val() == "" || $('#totalCumulativeGPA').val() == ""){
+      $("#semesterGPA").text("Current GPA cannot be empty");
+    } else {
+      totalCredits = totalCredits + parseFloat($('#totalCreditsEarned').val());
+      gradePoints = gradePoints + parseFloat($('#totalCumulativeGPA').val()) * parseFloat($('#totalCreditsEarned').val())
+      var gpa = gradePoints / totalCredits;
+      if (gradePoints == 0.0 || totalCredits == 0.0) {
+        $("#semesterGPA").text("You must enter at least one grade and its corresponding credits.");
+      } else if (isNaN(gpa)) {
+        $("#semesterGPA").text("Could not calculate GPA. Did you input a non-decimal grade?");
+      } else {
+        $("#cumulativeGPA").val(gpa);
+      }
+    }
+   
+  });
+
+  //When user clicked on submit button
   });
 
 </script>

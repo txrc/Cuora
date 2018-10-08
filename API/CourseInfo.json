@@ -4,7 +4,7 @@
             "CZ": {
                 "Year 2": {
                     "CZ2003": {
-                        "CourseTitle": "CE/CZ2003:Computer Graphics & Visualization ",
+                        "CourseTitle": "CZ2003:Computer Graphics & Visualization ",
                         "Prerequisites": "CZ1011: Engineering Mathematics I",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorial: 12, Labs: 10",
@@ -12,7 +12,7 @@
                         "Assessment": "Final Examination: 60%. Continuous Assessment 1 (CA1) Tutorials: 10%, Continuous Assessment 2 (CA2) Software Laboratory: 30% "
                     },
                     "CZ2004": {
-                        "CourseTitle": "CE/CZ2004:Human-Computer Interaction",
+                        "CourseTitle": "CZ2004:Human-Computer Interaction",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 12, Example Classes: 10",
@@ -20,7 +20,7 @@
                         "Assessment": "Final Examination: 60%, Lo-fi prototype: 18%, Usability Evaluation report: 6%, Hi-fi prototype: 16%"
                     },
                     "CZ2007": {
-                        "CourseTitle": "CE/CZ2007:Introduction to Databases",
+                        "CourseTitle": "CZ2007:Introduction to Databases",
                         "Prerequisites": "CE/CZ2001: Algorithms",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 10, Student Presentation: 10",
@@ -31,7 +31,7 @@
                 "Year 3": {
                     "CZ3002":{
                         "CourseTitle": "CZ3002:Advanced Software Engineering",
-                        "Prerequisites": "CZ/CE2006: Software Engineering",
+                        "Prerequisites": "CE/CZ2006: Software Engineering",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Student Presentation: 2",
                         "CourseAims": "Building upon software engineering and design concepts covered in Software Engineering (CZ2006), this course aims to introduce advanced software engineering management topics to you including Quality Management, Project Management, Configuration Management, and Maintenance, according to the Software Engineering Body of Knowledge.",
@@ -216,12 +216,12 @@
                         "Prerequisites": "CE/CZ1007:Data Structure",
                         "AUs": 3,
                         "Session": "Lectures: 24, TEL: 0, Tutorials: 10, Labs: 10",
-                        "CourseAims": "The object‐oriented paradigm to the design of software is one major successful approach to address complexity and maintainability issues in software systems. We want students to establish an object‐ oriented mindset and to gain valuable insights into how software can be developed using the object‐ oriented approach.  This course should not be interpreted to be a pure programming language course.   Rather, the programming language serves to illustrate, via practical examples, the concepts learnt in the course. As a student of this course, you will learn essential object‐oriented concepts such as encapsulation, the separation of design from implementation; the use of inheritance and polymorphism. You will discover how to describe these concepts using appropriate UML diagrams. Finally, you will also learn good design principles for reuse, and to realise these principles using object‐oriented programming languages such as Java and/or C++.",
+                        "CourseAims": "The object-oriented paradigm to the design of software is one major successful approach to address complexity and maintainability issues in software systems. We want students to establish an object‐ oriented mindset and to gain valuable insights into how software can be developed using the object‐ oriented approach.  This course should not be interpreted to be a pure programming language course.   Rather, the programming language serves to illustrate, via practical examples, the concepts learnt in the course. As a student of this course, you will learn essential object‐oriented concepts such as encapsulation, the separation of design from implementation; the use of inheritance and polymorphism. You will discover how to describe these concepts using appropriate UML diagrams. Finally, you will also learn good design principles for reuse, and to realise these principles using object‐oriented programming languages such as Java and/or C++.",
                         "Assessment": "Final Examination: 60%, Clicker/Java Quiz (Participation): 5%, Laboratory Assessment: 5%, Assignment: 30%"
                     },
                     "CE/CZ2005": {
                         "CourseTitle": "CE/CZ2005:Operating Systems",
-                        "Prerequisites": "CE/CZ 1006: Computer Organisation and Structure and CE/CZ 1007: Data Structures",
+                        "Prerequisites": "CE/CZ 1006:Computer Organisation and Structure and CE/CZ 1007: Data Structures",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL: 0, Tutorials: 12, Labs: 8",
                         "CourseAims": "This course aims to develop your understanding of fundamental concepts and principles of modern operating systems, and to build your knowledge on the design and implementation of main operating system components. ",
@@ -229,7 +229,7 @@
                     },
                     "CE/CZ2006": {
                         "CourseTitle": "CE/CZ2006:Software Engineering",
-                        "Prerequisites": "CE/CZ 2002 (can be taken concurrently): Object Oriented Design and Programming",
+                        "Prerequisites": "CE/CZ 2002 (can be taken concurrently):Object Oriented Design and Programming",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL: 0, Tutorials: 10, Student presentation: 2",
                         "CourseAims": "This course aims to equip SCSE students with foundation knowledge on issues and techniques required for the design and implementation of quality software. You will have the necessary knowledge and skills to delve deeper into systems analysis (CZ3003) and advanced topics in Advanced Software Engineering (CZ3002).",
@@ -237,7 +237,7 @@
                     },
                     "CE/CZ9010": {
                         "CourseTitle": "CE/CZ9010:Introduction to Data Science",
-                        "Prerequisites": "CE/CZ1003, CE/CZ1011 (or equivalent ‐ which is basics in statistics)",
+                        "Prerequisites": "CE/CZ1003, CE/CZ1011 (or equivalent - which is basics in statistics)",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorials: 13, Labs: 10",
                         "CourseAims": "This course aims to develop skills in data science. In 2012, the Harvard Business School called data scientist the sexiest job of the 21st century. Why has data scientist become a most in‐demand job? Today massive amounts of data are available in all areas of science, government and industry. Exploited sensibly, these raw data can significantly improve the efficiency of research, services and industries in as many fields as healthcare, engineering, finance, telecommunications or urban development just to name a few. This course is designed for students who recognize the value of data science, but are not majoring from the School of Computer Science and Engineering (SCSE) and certain other programmes (see Appendix 3). The course provides you with an understanding of the fundamentals of data science and the practical skills set required to be a data scientist, including the design and implementation of basic techniques. ",
@@ -289,7 +289,7 @@
                     },
                     "CE/CZ4016":{
                         "CourseTitle": "CE/CZ4016: Advanced Topics in Algorithms",
-                        "Prerequisites": "CZ/CE 2001: Algorithms",
+                        "Prerequisites": "CE/CZ 2001: Algorithms",
                         "AUs": 3,
                         "Session": "Lectures: 24, TEL:0, Tutorials: 11, Quizzes: 4",
                         "CourseAims": "This course aims to develop your ability to identify key structural components in algorithms, problems and domains alike, and to exploit them to create provably computationally efficient solutions. This course builds on basic skills obtained in the prerequisite “Algorithms” course to broaden the range of analysis techniques that you use; provide you with intricate, elegant and actionable algorithmic design patterns; and develop your skill in exploiting salient problem features to facilitate computation.   Algorithms and designs presented in this course were at the beginning of multiple disciplines that now dominate the IT industry, and serve as a stepping stone for your further development for such roles as an algorithms engineer/developer or an applied researcher in computer technologies.  ",
@@ -409,7 +409,7 @@
                     }, 
                     "CE/CZ4064":{
                         "CourseTitle": "CE/CZ4064: Security Management",
-                        "Prerequisites": "CZ/CE 2006: Software Engineering",
+                        "Prerequisites": "CE/CZ 2006: Software Engineering",
                         "AUs": 3,
                         "Session": "Lectures: 23, Tutorial: 4, Student Presentation: 12",
                         "CourseAims": "This course aims to develop your ability to identify the problems associated with (cyber and information) security management and understand using case studies that to effectively address them,one needs to design solutions that encompass multiple dimensions, including technology, people,processes and (internal as well as external) regulations.      This course provides an introductory but broad perspective of cyber and information security, and is relevant for anyone pursuing a career in the IT/ICT industry – including those in product design and  development, security engineering, penetration testing, network/system administration, as well as,  given the proliferation of IT in all walks of our lives, in executive roles across industries and government.",
@@ -425,7 +425,7 @@
                     }, 
                     "CE/CZ4067":{
                         "CourseTitle": "CE/CZ 4067: Software Security",
-                        "Prerequisites": "CZ/CE 2002: Object Oriented Design & Programming or CZ/CE 2005: Operating Systems",
+                        "Prerequisites": "CE/CZ 2002: Object Oriented Design & Programming or CE/CZ 2005: Operating Systems",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorial: 13",
                         "CourseAims": "This course aims to develop skills in software security. It focuses on security attacks launched by supplying specially crafted inputs to software components that modify the intended behaviours of those components, and the secure coding techniques (defences). The modified behaviours of thesoftware components become security critical in a connected world where application systems areconstructed from a collection of software components. Software developers who are not familiar with software security are likely to omit suitable defences out of ignorance. As such, this course will equip you with the deep knowledge about software security attack and defence techniques, a skill necessary to become IT security experts or professional software developers.", 

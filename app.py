@@ -1,5 +1,6 @@
 from API.SCSE_API import API
 from flask import Flask, request, render_template
+from getCourseCode import getCourse
 import boto3, json
 
 
@@ -20,18 +21,45 @@ def index():
 	# render template if nothing is up
 	return render_template('index.html')
 
+@app.route('/newsevents')
+def newsevents_page():
+	return render_template('index.html')
+
+
+@app.route('/gpaCalculator')
+def gpaCalculator_page():
+	return render_template('gpaCalculator.html')
+
+@app.route('/faq')
+def faq_page():
+	return render_template('faqs.html')
+
+
+
 @app.route('/lex')
 def send_text():
 	response = lex.post_text(
 	    botName='Cuora',
 	    botAlias='dev',
 	    userId='Test',
-	    inputText='In year 3 what course do we have to take for CS'
+	    inputText='Tell me about dete structures'
 	)
 	if (response["dialogState"] == "ReadyForFulfillment"):
-		attributes = {"intentName": response["intentName"], "slots": response["slots"]} 
-		output_response = API.getData(attributes)
-		return output_response
+		slots = response["slots"]
+		if (slots == None):
+			# Print output immediately 
+			pass
+		else:
+			keyword = getCourse(slots["Course"])
+			if (keyword != None):
+				slots["Course"] = keyword
+				attributes = {"intentName": response["intentName"], "slots": slots}
+				output_response = API.getData(attributes)
+				return json.dumps(output_response)
+			else:
+				return ("Sorry, I did not understand you, what would you like me to do?")
+
+
 	else:
 		return json.dumps(response["message"])
 
