@@ -4,7 +4,7 @@
             "CZ": {
                 "Year 2": {
                     "CZ2003": {
-                        "CourseTitle": "CZ2003:Computer Graphics & Visualization ",
+                        "CourseTitle": "CZ2003: Computer Graphics & Visualization ",
                         "Prerequisites": "CZ1011: Engineering Mathematics I",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorial: 12, Labs: 10",
@@ -12,7 +12,7 @@
                         "Assessment": "Final Examination: 60%. Continuous Assessment 1 (CA1) Tutorials: 10%, Continuous Assessment 2 (CA2) Software Laboratory: 30% "
                     },
                     "CZ2004": {
-                        "CourseTitle": "CZ2004:Human-Computer Interaction",
+                        "CourseTitle": "CZ2004: Human-Computer Interaction",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 12, Example Classes: 10",
@@ -20,7 +20,7 @@
                         "Assessment": "Final Examination: 60%, Lo-fi prototype: 18%, Usability Evaluation report: 6%, Hi-fi prototype: 16%"
                     },
                     "CZ2007": {
-                        "CourseTitle": "CZ2007:Introduction to Databases",
+                        "CourseTitle": "CZ2007: Introduction to Databases",
                         "Prerequisites": "CE/CZ2001: Algorithms",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 10, Student Presentation: 10",
@@ -30,7 +30,7 @@
                 },
                 "Year 3": {
                     "CZ3002":{
-                        "CourseTitle": "CZ3002:Advanced Software Engineering",
+                        "CourseTitle": "CZ3002: Advanced Software Engineering",
                         "Prerequisites": "CE/CZ2006: Software Engineering",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Student Presentation: 2",
@@ -38,7 +38,7 @@
                         "Assessment": "Final 2‐hour written examination: 40%, Coursework assessment in a form of laboratory cum assignments: 60%"
                     },
                     "CZ3005":{
-                        "CourseTitle": "CZ3005:Artificial Intelligence",
+                        "CourseTitle": "CZ3005: Artificial Intelligence",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 12, TEL:14, Tutorial: 13, Lab:1, Example Class: 2",
@@ -46,7 +46,7 @@
                         "Assessment": "Final Examination: 60%, Quiz: 10%, Laboratory: 30%"
                     },
                     "CZ3006":{
-                        "CourseTitle": "CZ3006:Net Centric Computing",
+                        "CourseTitle": "CZ3006: Net Centric Computing",
                         "Prerequisites": "CE/CZ1006: Computer Organization & Architecture, CE/CZ2002: Object Oriented Design & Programming",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab:8",
@@ -54,7 +54,7 @@
                         "Assessment": "Final Examination: 60%, Lab Assignment I: 20%, Lab Assignment II: 20%"
                     },
                     "CZ3007":{
-                        "CourseTitle": "CZ3007:Complier Techniques",
+                        "CourseTitle": "CZ3007: Complier Techniques",
                         "Prerequisites": "CE/CZ2001: Algorithms, CE/CZ2006: Software Engineering",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 8",
@@ -66,7 +66,7 @@
             "CE": {
                 "Year 2": {
                     "CE2003":{
-                        "CourseTitle": "CE2003:Digital Systems Design",
+                        "CourseTitle": "CE2003: Digital Systems Design",
                         "Prerequisites": "CE/CZ 1005: Digital Logic",
                         "AUs": 3,
                         "Session": "Lectures: 4, TEL:22, Tutorial: 13, Lab: 10, Example Class: 5",
@@ -74,7 +74,7 @@
                         "Assessment": "Final Examination: 60%, Quiz: 15%, Laboratory: 15%, Project: 10%"
                     },
                     "CE2004":{
-                        "CourseTitle": "CE2004:Circuits and Signal Analysis",
+                        "CourseTitle": "CE2004: Circuits and Signal Analysis",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 12, Lab: 8",
@@ -82,7 +82,7 @@
                         "Assessment": "Final Examination: 60%, Laboratory written report (Part 1): 20%, Laboratory written report (Part 2): 20%"
                     },
                     "CE2007":{
-                        "CourseTitle": "CE2007:Microprocessor based Systems Design",
+                        "CourseTitle": "CE2007: Microprocessor based Systems Design",
                         "Prerequisites": "CE/CZ 1006: Computer Organization and Architecture",
                         "AUs": 3,
                         "Session": "Lectures: 19, TEL:5, Tutorial: 9",
@@ -92,7 +92,7 @@
                 },
                 "Year 3": {
                     "CE3002":{
-                        "CourseTitle": "CE3002:– Sensor Control and Interfacing",
+                        "CourseTitle": "CE3002: Sensor Control and Interfacing",
                         "Prerequisites": "CE 2004: Circuits and Signal Analysis",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorial: 13, Lab: 5",
@@ -100,7 +100,7 @@
                         "Assessment": "Final Examination: 60%, Laboratory Project: 40%"
                     },
                     "CE3003":{
-                        "CourseTitle": "CE3003:Microcontroller Programming",
+                        "CourseTitle": "CE3003: Microcontroller Programming",
                         "Prerequisites": "CE/CZ 2005: Operating Systems",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorial: 7, Lab: 12",
@@ -108,7 +108,7 @@
                         "Assessment": "Final Written Examination: 60%, Laboratory Quiz: 30%, Team Based Learning (TBL) Activity: 10%"
                     },
                     "CE3005":{
-                        "CourseTitle": "CE3005:Computer Networks",
+                        "CourseTitle": "CE3005: Computer Networks",
                         "Prerequisites": "CE/CZ 1011: Engineering Mathematics I, CE/CZ 1012: Engineering Mathematics II",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 8",
@@ -116,7 +116,7 @@
                         "Assessment": "Final Examination: 60%, Laboratory session 1: 20%, Laboratory session 2: 0%, Laboratory session 3: 20%"
                     },
                     "CE3006":{
-                        "CourseTitle": "CE3006:Digital Communications",
+                        "CourseTitle": "CE3006: Digital Communications",
                         "Prerequisites": "CE/CZ1011: Engineering Mathematics I, CE 2004: Circuits and Signal Analysis ",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL:0, Tutorial: 13, Lab: 6",
@@ -124,7 +124,7 @@
                         "Assessment": "Final Examination: 60%, Mid‐term test: 20%, Lab Quizzes: 20%"
                     },
                     "CE3007":{
-                        "CourseTitle": "CE3007:Digital Signal Processing",
+                        "CourseTitle": "CE3007: Digital Signal Processing",
                         "Prerequisites": "CE 2004: Circuits and Signal Analysis",
                         "AUs": 3,
                         "Session": "Lectures: 23, TEL:0, Tutorial: 13, Lab: 10",
@@ -146,7 +146,7 @@
             "CE/CZ": {
                 "Year 1": {
                     "CE/CZ1003": {
-                        "CourseTitle": "CE/CZ1003:Introduction to Computational Thinking ",
+                        "CourseTitle": "CE/CZ1003: Introduction to Computational Thinking ",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 0, Tutorial: 13, Example Class: 26",
@@ -154,7 +154,7 @@
                         "Assessment": "TEL participations and TEL MCQs: 20%,  Online MCQs based quizzes: 30%, Hands-on exercises assessment (MCQ based quizzes): 20%, Mini Project assessment: 30% "
                     },
                     "CE/CZ1005": {
-                        "CourseTitle": "CE/CZ1005:Digital Logic ",
+                        "CourseTitle": "CE/CZ1005: Digital Logic ",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 0, TEL: 26, Tutorial: 13, Lab: 10",
@@ -162,7 +162,7 @@
                         "Assessment": "Final Examination: 60%, Quizzes: 22%, Lab assessments: 10%, Online tasks: 8%"
                     },
                     "CE/CZ1006": {
-                        "CourseTitle": "CE/CZ1006:Computer Organisation and Architecture",
+                        "CourseTitle": "CE/CZ1006: Computer Organisation and Architecture",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lecture 26, Tutorial: 13, Lab: 8",
@@ -170,7 +170,7 @@
                         "Assessment": "Final Examination: 60%, Quiz: 40%"
                     },
                     "CE/CZ1007": {
-                        "CourseTitle": "CE/CZ1007:Data Structures",
+                        "CourseTitle": "CE/CZ1007: Data Structures",
                         "Prerequisites": "CE/CZ1003: Introduction to Computational Thinking",
                         "AUs": 3,
                         "Session": "Lectures: 13, TEL: 0, Example Class: 24",
@@ -178,15 +178,15 @@
                         "Assessment": "Assignment: 20%, Test: 80%"
                     },
                     "CE/CZ1011": {
-                        "CourseTitle": "CE/CZ1011:Engineering Mathematics I",
-                        "Prerequisites": "-",
+                        "CourseTitle": "CE/CZ1011: Engineering Mathematics I",
+                        "Prerequisites": "-", 
                         "AUs": 3,
                         "Session": "Lectures and TEL: 26, Tutorials: 13, Example Class: 24",
                         "CourseAims": "This course aims to develop your foundation in engineering mathematics, particularly in linear algebra and probability and statistics.      This course provides the basic engineering mathematics foundation that is necessary for anyone pursuing a computer science and engineering degree course.",
                         "Assessment": "Final Written Examination: 60%, Quizzes: 32%, Example class (lab) exercise: 8%"
                     },
                     "CE/CZ1012": {
-                        "CourseTitle": "CE/CZ1012:Engineering Mathematics II",
+                        "CourseTitle": "CE/CZ1012: Engineering Mathematics II",
                         "Prerequisites": "-",
                         "AUs": 3,
                         "Session": "Lectures: 20, TEL: 6, Tutorials: 10, Exampleclass: 8",
@@ -194,7 +194,7 @@
                         "Assessment": "Final Examination: 60%, Quiz: 20%, Take home assignment: 20%"
                     },
                     "CE/CZ1013": {
-                        "CourseTitle": "CE/CZ1013:Physics for Computing",
+                        "CourseTitle": "CE/CZ1013: Physics for Computing",
                         "Prerequisites": "-",
                         "AUs": 2,
                         "Session": "Lectures: 26, TEL: 0, Tutorials: 0, Lab: 8",
@@ -204,7 +204,7 @@
                 },
                 "Year 2": {
                     "CE/CZ2001": {
-                        "CourseTitle": "CE/CZ2001:Algorithms",
+                        "CourseTitle": "CE/CZ2001: Algorithms",
                         "Prerequisites": "CE/CZ1007:Data Structures",
                         "AUs": 3,
                         "Session": "Lectures: 25, TEL: 2, Tutorials: 11, Examples Classes: 8",
@@ -212,7 +212,7 @@
                         "Assessment": "Final Examination: 60%, Mid-Term Quiz: 20%, Example Classes: 20%"
                     },
                     "CE/CZ2002": {
-                        "CourseTitle": "CE/CZ2002:Object Oriented Design & Programming ",
+                        "CourseTitle": "CE/CZ2002: Object Oriented Design & Programming ",
                         "Prerequisites": "CE/CZ1007:Data Structure",
                         "AUs": 3,
                         "Session": "Lectures: 24, TEL: 0, Tutorials: 10, Labs: 10",
@@ -220,7 +220,7 @@
                         "Assessment": "Final Examination: 60%, Clicker/Java Quiz (Participation): 5%, Laboratory Assessment: 5%, Assignment: 30%"
                     },
                     "CE/CZ2005": {
-                        "CourseTitle": "CE/CZ2005:Operating Systems",
+                        "CourseTitle": "CE/CZ2005: Operating Systems",
                         "Prerequisites": "CE/CZ 1006:Computer Organisation and Structure and CE/CZ 1007: Data Structures",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL: 0, Tutorials: 12, Labs: 8",
@@ -228,7 +228,7 @@
                         "Assessment": "Final Written Examination: 60%, Continuous Assessments: 40%"
                     },
                     "CE/CZ2006": {
-                        "CourseTitle": "CE/CZ2006:Software Engineering",
+                        "CourseTitle": "CE/CZ2006: Software Engineering",
                         "Prerequisites": "CE/CZ 2002 (can be taken concurrently):Object Oriented Design and Programming",
                         "AUs": 3,
                         "Session": "Lectures: 26, TEL: 0, Tutorials: 10, Student presentation: 2",
@@ -236,7 +236,7 @@
                         "Assessment": "Final Examination: 60%, Case study: 40%"
                     },
                     "CE/CZ9010": {
-                        "CourseTitle": "CE/CZ9010:Introduction to Data Science",
+                        "CourseTitle": "CE/CZ9010: Introduction to Data Science",
                         "Prerequisites": "CE/CZ1003, CE/CZ1011 (or equivalent - which is basics in statistics)",
                         "AUs": 3,
                         "Session": "Lectures: 26, Tutorials: 13, Labs: 10",
@@ -246,7 +246,7 @@
                 },
                 "Year 3": {
                     "CE/CZ3001": {
-                        "CourseTitle": "CE/CZ3001:Advanced Computer Architecture",
+                        "CourseTitle": "CE/CZ3001: Advanced Computer Architecture",
                         "Prerequisites": "CE/CZ1006: Computer Organisation And Architecture",
                         "AUs": 3,
                         "Session": "TEL(LAMS): 10, Lectures: 26, Tutorial: 10, Lab: 5",

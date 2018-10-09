@@ -21,10 +21,10 @@
   <!-- Custom styles for this template -->
   <link rel="stylesheet" href="{{url_for('static', filename='css/business-casual.min.css' )}}">
 
-
   <!-- Icon Library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
 
 <body>
 
@@ -35,7 +35,10 @@
   js = d.createElement(s); js.id = id;
   js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1';
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 
 
 <!-- Chatbot Panel -->
@@ -55,57 +58,8 @@
   <div class="row border-chat">
     <div class="col-md-12 col-sm-12 col-xs-12 second-section">
       <div class="chat-section">
-        <ul>
-          <li>
-            <div class="left-chat">
-              <img src="{{ url_for('static', filename='img/user1.svg') }}">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="right-chat">
-              <img src="{{ url_for('static', filename='img/user2.svg') }}">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="left-chat">
-              <img src="{{ url_for('static', filename='img/user1.svg') }}">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="right-chat">
-              <img src="img/user2.svg">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="left-chat">
-              <img src="img/user1.svg">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="right-chat">
-              <img src="img/user2.svg">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="left-chat">
-              <img src="img/user1.svg">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
-          <li>
-            <div class="right-chat">
-              <img src="img/user2.svg">
-              <p>Lorem ipsum dolor sit ameeserunt.</p>
-            </div>
-          </li>
+        <ul class="chat-input">
+          <!-- Chat will be empty at the start chat input here-->
         </ul>
       </div>
     </div>
@@ -113,7 +67,7 @@
   <div class="row border-chat">
     <div class="col-md-12 col-sm-12 col-xs-12 third-section">
       <div class="text-bar">
-        <input type="text" placeholder="Ask me a question."><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        <input class="chattextbox" placeholder="Ask me a question."><a href="#"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
   </div>
@@ -323,10 +277,11 @@
 
 <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
 <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="{{ url_for('static', filename='vendor/popper.min.js') }}"></script>
-<script src="{{ url_for('static', filename='dist/js/bootstrap.min.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='chat.js') }}"></script>
+
+
+
 <script>
   $(document).ready(function(){
     $(".left-first-section").click(function(){

@@ -36,32 +36,40 @@ def faq_page():
 
 
 
-@app.route('/lex')
+@app.route('/lex', methods=['GET', 'POST'])
 def send_text():
-	response = lex.post_text(
+	lex_response = lex.post_text(
 	    botName='Cuora',
 	    botAlias='dev',
 	    userId='Test',
-	    inputText='Tell me about dete structures'
+	    inputText= request.form['inputText']
 	)
-	if (response["dialogState"] == "ReadyForFulfillment"):
-		slots = response["slots"]
+	if (lex_response["dialogState"] == "ReadyForFulfillment"):
+		slots = lex_response["slots"]
+		# If slots None, return general answer
 		if (slots == None):
-			# Print output immediately 
-			pass
-		else:
-			keyword = getCourse(slots["Course"])
-			if (keyword != None):
-				slots["Course"] = keyword
-				attributes = {"intentName": response["intentName"], "slots": slots}
-				output_response = API.getData(attributes)
-				return json.dumps(output_response)
-			else:
+			# Return output directly 
+			attributes = {"intentName": lex_response["intentName"]}
+			output_response = API.getData(attributes)
+			return output_response
+		# Check if the Course key exist
+		elif slots.get("Course") != None:
+			slots["Course"] = getCourse(slots["Course"])
+			if slots["Course"] == None:
 				return ("Sorry, I did not understand you, what would you like me to do?")
+			else:
+				attributes = {"intentName": lex_response["intentName"], "slots": slots}
+				output_response = API.getData(attributes)
+				return output_response
 
-
+		# Check if the Programme key exist
+		elif slots.get("Programme") != None:
+			attributes = {"intentName": lex_response["intentName"], "slots": slots}
+			output_response = API.getData(attributes)
+			return output_response
+			
 	else:
-		return json.dumps(response["message"])
+		return lex_response["message"]
 
 
 
