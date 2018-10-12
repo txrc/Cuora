@@ -29,7 +29,7 @@ class API():
 			return ("Overall Employment rate for CS: 92.4% Mean Salary for CS students: $3,667 <br>\
 					Overall Employment rate for CE: 95.1% Mean Salary for CE students: $4,078 <br>\
 					For more information visit: <br>\
-					<a href='http://scse.ntu.edu.sg/Programmes/ProspectiveStudents/Undergraduate/Documents/GESntu.pdf'>SCSE Prospects</a> \
+					<a href='http://scse.ntu.edu.sg/Programmes/ProspectiveStudents/Undergraduate/Documents/GESntu.pdf' target='_blank'>SCSE Prospects</a> \
 					")
 
 		elif attributes["intentName"] == "codingLanguageIntent":
@@ -83,7 +83,7 @@ class API():
 			return ("The list of assessments are as follows: " + assessment)
 
 		elif attributes["intentName"] == "GreetingIntent":
-			return ("Hi, nice to meet you, I am Cuora. I can answer most SCSE related questions. Prospects, Infomration about Courses.")
+			return ("Hi, nice to meet you, I am Cuora. I can answer most SCSE related questions including Prospects, and Differences between Computer Science and Computer Engineering.")
 
 	def getInfo(self, course):
 		programme = course
