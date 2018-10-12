@@ -1,9 +1,9 @@
 from API.HelperFunctions.APIHelperFunctions import APIHelperFunctions
 import json
 
-
 class API():
 	file = './API/CourseInfo.json'
+	# test = APIHelperFunctions()
 	courseInfo = APIHelperFunctions.convertFileToJSON(file) # RESTful API is here
 	# print(courseInfo)
 
@@ -33,10 +33,10 @@ class API():
 					")
 
 		elif attributes["intentName"] == "codingLanguageIntent":
-			return ("There isn’t a requirement on the coding language you use in most courses in SCSE. However, some of the key courses that require you to know the particular language are listed below: <br> \
-				CE/CZ1003: Introduction to Computational Thinking - Python Programming <br>\
-				CE/CZ1007: Data Structures - C Programming <br>\
-				CE/CZ2002: Object Oriented Design & Programming - Java Programming <br>\
+			return ("There isn\'t a requirement on the coding language you use in most courses in SCSE. However, some of the key courses that require you to know the particular language are listed below: <br> \
+				CE/CZ1003: Introduction to Computational Thinking: Python Programming <br> \
+				CE/CZ1007: Data Structures: C Programming <br> \
+				CE/CZ2002: Object Oriented Design & Programming: Java Programming <br> \
 				")
 
 		elif attributes["intentName"] == "coreGerpeIntent":
@@ -61,8 +61,8 @@ class API():
 
 		elif attributes["intentName"] == "DifferenceIntent":
 			return ("Most of the CS / CE students share this opinion, Computer Science usually focuses on the coding \
-				aspect of things, focusing on exclusive topics like “CZ2007 - Introduction to Databases” which focuses on clients, servers, operating systems, \
-				whereas Computer Engineering has exclusive topics like “CE2004 - Circuits and Signal Analysis” which focuses on understanding the hardware. ")
+				aspect of things, focusing on exclusive topics like 'CZ2007 - Introduction to Databases' which focuses on clients, servers, operating systems, \
+				whereas Computer Engineering has exclusive topics like 'CE2004 - Circuits and Signal Analysis' which focuses on understanding the hardware. ")
 
 		elif attributes["intentName"] == "gradCreditIntent":
 			return ("The total amount of AUs needed to graduate for JC/Poly students amounts to 140 AUs. For JC students, they have to complete the course of study within 4 years along with a professional internship (PI). For Poly students, they have an option to complete the course within 3 or 3.5 years along with the professional internship as well and as poly students are exempted, they only need to do 110 AUs with a total of 30 AUs credited upon entering the course. For more information visit: \
@@ -96,7 +96,7 @@ class API():
 			return ["CE", year]
 
 	
-# if __name__ == '__main__':
-# 	newData = API()
+if __name__ == '__main__':
+	newData	
 
 	

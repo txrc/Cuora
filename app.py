@@ -76,4 +76,4 @@ def send_text():
 # Called from the terminal
 if __name__ == '__main__':
 	app.debug = True # For development debugging not production
-	app.run()
+	app.run(host='0.0.0.0')
