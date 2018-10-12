@@ -1,4 +1,5 @@
 const user1 = "https://s3-ap-southeast-1.amazonaws.com/cuora/person_icon.png";
+const bot = "https://s3-ap-southeast-1.amazonaws.com/cuora/cuoraavatar.svg";
 const prodURL = "";
 const devURL = 'http://127.0.0.1:5000';
 
@@ -20,7 +21,7 @@ function insertText(who, text){
     else{
       control = '<li>' +
       '<div class="right-chat">' +
-      '<img src="{{ url_for("static", filename="img/user2.svg") }}">' +
+      '<img src="' + bot + '">' +
       '<p>' + text + '</p>' + 
       '</div>' +
       '</li>';  
@@ -36,13 +37,14 @@ function insertText(who, text){
 $(".chattextbox").on('keyup', function (e) {
 	if (e.which == 13){
 	    var text = $(this).val();
-	    if (text !== ""){
+      var invalid = /\s\s\s/g;
+	    if (text != ""){
 	        insertText("me", text);              
 	        $(this).val('');
+          $.post( serverUrl + "/lex", {'inputText': text })
+          .done(function(response){
+            insertText("bot", response);
+        })
 	    }
-    $.post( serverUrl + "/lex", {'inputText': text })
-	      .done(function(response){
-	          insertText("bot", response);
-	      })
 	}
 });

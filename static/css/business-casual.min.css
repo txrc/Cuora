@@ -44,7 +44,7 @@
   width: 500px;
   position: fixed;
   right:50px;
-  bottom:-350px;
+  bottom:-550px;
   background-color: #428bca;
 }
 .first-section:hover{
@@ -88,7 +88,7 @@
 }
 .chat-section{
   overflow-y:scroll;
-  height:300px;
+  height:500px;
 }
 .chat-section ul{
   padding: 0px;
@@ -106,7 +106,7 @@
   padding: 0px;
   margin: 0px;
   background-color: #F3F3F3;
-  height: 300px;
+  height: 500px;
 }
 .left-chat,.right-chat{
   overflow: hidden;

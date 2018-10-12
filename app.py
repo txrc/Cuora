@@ -47,7 +47,7 @@ def send_text():
 	if (lex_response["dialogState"] == "ReadyForFulfillment"):
 		slots = lex_response["slots"]
 		# If slots None, return general answer
-		if (slots == None):
+		if (bool(slots) == False):
 			# Return output directly 
 			attributes = {"intentName": lex_response["intentName"]}
 			output_response = API.getData(attributes)
