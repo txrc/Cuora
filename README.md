@@ -19,3 +19,4 @@ A huge thank you to the team members who have helped out in the project. <br />
 [jakusan](https://github.com/jakusan) - Created multiple intents and slots for Amazon Lex. <br />
 [JaraldPang](https://github.com/JaraldPang) - Data retrieval which results in answers for the end-users.
 
+***Disclaimer:*** This repo is deprecated and no longer maintained. The Project was submitted as part of the course project for CZ3002 ADVANCED SOFTWARE ENGINEERING at NTU. The author will bear no responsibilities for any issues arose from academic integrity or honor code violations of anyone who takes this repository as a reference.
